@@ -1,0 +1,30 @@
+---
+quiz: 
+  description: "This Quiz is to learn YAML"
+  questions:
+    - ["How many planets are there in the solar system?", "Name the non planet"]
+    - "Who is found more on the web?"
+    - "What is the value of pi?"
+    - "Is pluto related to platonic relationships?"
+    - "How many maximum members can play TT?"
+    - "Which value is no value?"
+    - "Don't you know that Universe is ever expanding?"
+
+  answers:
+    - [8, "pluto"]
+    - cats
+    - 3.141592653589793
+    - true
+    - 4
+    - null
+    - no
+
+# explicit data conversion and reusing data blocks
+extra:
+  refer: &id011 # give a reference to data
+    x: !!float 5 # explicit conversion to data type float
+    y: 8
+  num1: !!int "123" # conversion to integer
+  str1: !!str 120 # conversion to string
+
+  again: *id011 # call data by giving the reference

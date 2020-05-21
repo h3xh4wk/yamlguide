@@ -1,0 +1,27 @@
+extra:
+  again: &id001
+    x: 5.0
+    y: 8
+  num1: 123
+  refer: *id001
+  str1: '120'
+quiz:
+  answers:
+  - - 8
+    - pluto
+  - cats
+  - 3.141592653589793
+  - true
+  - 4
+  - null
+  - false
+  description: This Quiz is to learn YAML
+  questions:
+  - - How many planets are there in the solar system?
+    - Name the non planet
+  - Who is found more on the web?
+  - What is the value of pi?
+  - Is pluto related to platonic relationships?
+  - How many maximum members can play TT?
+  - Which value is no value?
+  - Don't you know that Universe is ever expanding?

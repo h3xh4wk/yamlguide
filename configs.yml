@@ -1,0 +1,33 @@
+---
+quiz: 
+  description: "This Quiz is to learn YAML"
+  questions:
+    - ["How many planets are there in the solar system?", "Name the non planet"]
+    - "Who is found more on the web?"
+    - "What is the value of pi?"
+    - "Is pluto related to platonic relationships?"
+    - "How many maximum members can play TT?"
+    - "Which value is no value?"
+    - "Don't you know that Universe is ever expanding?"
+
+  answers:
+    - [8, "pluto"]
+    - cats
+    - 3.141592653589793
+    - true
+    - 4
+    - null
+    - no
+
+---
+quiz:
+  description: |
+    This is another quiz, which
+    is the advanced version of the previous one
+  questions:
+    q1:
+      desc: "Which value is no value?"
+      ans: Null
+    q2:
+      desc: "What is the value of Pi?"
+      ans: 3.1415
