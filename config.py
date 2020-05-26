@@ -1,7 +1,6 @@
 import yaml
 import pprint
 
-
 def read_yaml():
     """ A function to read YAML file"""
     with open('config.yml') as f:
